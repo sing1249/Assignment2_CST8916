@@ -127,5 +127,23 @@ When we hit run in the query in the Stream Analytics job the data does not autom
 5. After hitting the refresh data, we can see a file that is in json format that will have the data of the job,
 6. We can click on the file, it will be downloaded and we can see the data using any JSON viewer.
 
+### Results
+The result of the job that ran in the Azure Analytcis processiot will be stored in blob storage. It will have a file in JSON format. After downloading and opening the file it will give us the following data.
+We can see that it gives us data for every 5 minutes for each location and we can see the AvgIceThickness and MaxSnowAccumulation. This will help in maintaing safety of people skating on the canal. 
+
+```json
+{"Location":"Dow's Lake","AvgIceThickness":26.311333333333334,"MaxSnowAccumulation":9.27,"EventTime":"2024-11-26T20:00:00.0000000Z"}
+{"Location":"NAC","AvgIceThickness":24.802333333333333,"MaxSnowAccumulation":9.27,"EventTime":"2024-11-26T20:00:00.0000000Z"}
+{"Location":"Fifth Avenue","AvgIceThickness":24.853448275862064,"MaxSnowAccumulation":9.99,"EventTime":"2024-11-26T20:00:00.0000000Z"}
+{"Location":"Dow's Lake","AvgIceThickness":25.33724137931034,"MaxSnowAccumulation":9.83,"EventTime":"2024-11-26T20:05:00.0000000Z"}
+{"Location":"NAC","AvgIceThickness":24.541379310344833,"MaxSnowAccumulation":9.8,"EventTime":"2024-11-26T20:05:00.0000000Z"}
+{"Location":"Fifth Avenue","AvgIceThickness":24.728333333333335,"MaxSnowAccumulation":9.51,"EventTime":"2024-11-26T20:05:00.0000000Z"}
+{"Location":"Dow's Lake","AvgIceThickness":25.786666666666658,"MaxSnowAccumulation":9.82,"EventTime":"2024-11-26T20:10:00.0000000Z"}
+{"Location":"NAC","AvgIceThickness":25.391333333333343,"MaxSnowAccumulation":9.78,"EventTime":"2024-11-26T20:10:00.0000000Z"}
+{"Location":"Fifth Avenue","AvgIceThickness":26.287999999999993,"MaxSnowAccumulation":9.86,"EventTime":"2024-11-26T20:10:00.0000000Z"}
+{"Location":"Dow's Lake","AvgIceThickness":25.585333333333327,"MaxSnowAccumulation":9.93,"EventTime":"2024-11-26T20:15:00.0000000Z"}
+{"Location":"NAC","AvgIceThickness":24.387931034482765,"MaxSnowAccumulation":9.94,"EventTime":"2024-11-26T20:15:00.0000000Z"}
+```
+
 
 
