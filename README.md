@@ -143,6 +143,7 @@ We can see that it gives us data for every 5 minutes for each location and we ca
 {"Location":"Fifth Avenue","AvgIceThickness":26.287999999999993,"MaxSnowAccumulation":9.86,"EventTime":"2024-11-26T20:10:00.0000000Z"}
 {"Location":"Dow's Lake","AvgIceThickness":25.585333333333327,"MaxSnowAccumulation":9.93,"EventTime":"2024-11-26T20:15:00.0000000Z"}
 {"Location":"NAC","AvgIceThickness":24.387931034482765,"MaxSnowAccumulation":9.94,"EventTime":"2024-11-26T20:15:00.0000000Z"}
+{"Location":"Fifth Avenue","AvgIceThickness":24.012068965517248,"MaxSnowAccumulation":9.65,"EventTime":"2024-11-26T20:15:00.0000000Z"}
 ```
 
 
