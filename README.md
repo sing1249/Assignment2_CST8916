@@ -46,11 +46,52 @@ To send data to Azure IoT Hub, we first created an IoT Hub named **iot-cst8916**
 For the endpoint configuration, we selected the default **Device-to-cloud endpoint**, which allows devices to send messages to the IoT Hub. The IoT Hub automatically listens for data sent to this endpoint from the registered devices.
 
 ### Azure Blob Storage
-Azure Blob Storage will be used to store the sensor data for monitoring purposes. To set up Blob Storage, we first created a storage account named **iotstorage8916**, dedicated to blob storage. Then, we added a container within this storage account and named it **iotoutput**.
+Azure Blob Storage will be used to store the sensor data for monitoring purposes. To set up Blob Storage, we first created a storage account named **iotstorage8916**, dedicated to blob storage. Then, we added a container within this storage account and named it **iotoutput**. The data will be stored in the json format. 
 
 ### Azure Stream Analytics Job
-Stream Analytics will be used to process and store the data in Blob Storage. We created a Stream Analytics job resource in Azure named **processiot**. To configure the job, including the input and output settings, we navigated to the **Job Topology**.
+Stream Analytics will be used to process and store the data in Blob Storage. We created a Stream Analytics job resource in Azure named **processiot**. To configure the job, including the input and output settings, we navigated to the **Job Topology** which is described in further steps.
 
+## Usage Instructions
+
+### Running the IoT Sensor Simulation
+To run the scripts for each sensor through VS Code, follow these steps:
+
+1. Switch to the directory `sensor-simulation`, which contains the Python code for all 3 sensors and the `requirements.txt` file.
+2. Create a virtual environment in VS Code WSL using the following steps:
+    - Open Command Palette
+    - Select **Python: Create Environment** > **Venv**
+    - Choose the Python version
+    - Choose the file with dependencies, which is `requirements.txt`. The dependencies in this case include the installation of the `azure.iot.device` module.
+    - After the module is installed, a virtual environment will be created.
+3. After the virtual environment is set up, open 3 separate terminals and run the following commands:
+    - `python DowsLake.py`
+    - `python FifthAvenue.py`
+    - `python NAC.py`
+    
+    These commands will run the scripts and simulate the sensors sending data to the IoT Hub.
+
+### Configuring Azure Services
+
+#### Setting up the IoT Hub
+To set up the IoT Hub to use the script as sensors, follow these steps:
+
+- Use the primary connection string for each sensor in the Python scripts. The primary connection string is used to connect to the sensors.
+- Assign the global variable `CONNECTION_STRING` the value of the primary connection string for each respective sensor script.
+
+```python
+# Main function to connect to IoT Hub and send data
+def main():
+    client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
+    try:
+        print(f"Starting simulation for {LOCATION}")
+        send_data(client, LOCATION)
+    except KeyboardInterrupt:
+        print("Simulation stopped.")
+    finally:
+        client.disconnect()
+```
+#### Setting up the Strem Analytics Job: 
+In order to set up the job, we will go into Job Topology and follow the following steps.
 - **Setting up the input**  
   In the Job Topology, we selected **Input > Add Input**, and the system automatically detected the input hub, which in our case is **iot-cst8916**. We named this input **"input"**.
 
@@ -75,4 +116,16 @@ FROM
 GROUP BY
     location, TumblingWindow(minute, 5)
 ```
+### Accessing Stored Data
+
+When we hit run in the query in the Stream Analytics job the data does not automatically gets stored into the blob storage. In order for it to be stored in the Blob Storage these are the steps we can follow:
+
+1. We will have to start the job. For that we go into Overview Section of the Azure Analyctics. In this case we will go into processiot > overview.
+2. We will then start the job there.
+3. To access the data, we can go into the storage account and then into the container in the storage account.
+4. After that we can open the container that we configured as output source in the Azure Analytics job.
+5. After hitting the refresh data, we can see a file that is in json format that will have the data of the job,
+6. We can click on the file, it will be downloaded and we can see the data using any JSON viewer.
+
+
 
