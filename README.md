@@ -64,9 +64,9 @@ To run the scripts for each sensor through VS Code, follow these steps:
     - Choose the file with dependencies, which is `requirements.txt`. The dependencies in this case include the installation of the `azure.iot.device` module.
     - After the module is installed, a virtual environment will be created.
 3. After the virtual environment is set up, open 3 separate terminals and run the following commands:
-    - `python DowsLake.py`
-    - `python FifthAvenue.py`
-    - `python NAC.py`
+    - ```python DowsLake.py```
+    - ```python FifthAvenue.py```
+    - ```python NAC.py```
     
     These commands will run the scripts and simulate the sensors sending data to the IoT Hub.
 
