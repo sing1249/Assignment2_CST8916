@@ -1,4 +1,5 @@
-# Assignment2
+# Assignment 2: Real-time Monitoring System for Rideau Canal Skateway
+
 ## Group Members
 1. Aakanksha Pharande (041075173)
 2. Vrinda Dua
