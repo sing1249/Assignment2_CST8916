@@ -37,12 +37,12 @@ The JSON payload example sent includes the randomization of sensor data as follo
 
 ```json
 {
-    "location": location,
-    "iceThickness": round(random.uniform(15.0, 35.0), 2),
-    "surfaceTemperature": round(random.uniform(-5.0, 5.0), 2),
-    "snowAccumulation": round(random.uniform(0, 10), 2),
-    "externalTemperature": round(random.uniform(-10.0, 5.0), 2),
-    "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    "location": "Dow's Lake",
+    "iceThickness": 26.77,
+    "surfaceTemperature": -3.31,
+    "snowAccumulation": 5.69,
+    "externalTemperature": -4.65,
+    "timestamp": "2024-11-26T19:03:38Z"
 }
 ```
 
