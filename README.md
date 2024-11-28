@@ -1,6 +1,6 @@
 # Assignment2
 ## Group Members
-1. Aakanksha Pharande
+1. Aakanksha Pharande (041075173)
 2. Vrinda Dua
 3. Talwinder Singh (040952048)
 
@@ -22,8 +22,8 @@ By leveraging continuous monitoring and data-driven decision-making, this soluti
 
 ## Implementation Details
 
-### Generartion of data from simulated IoT Sensors Generate and how it is sent to Azure IoT Hub
-The IoT sensors generate data using Python scripts that incorporate randomization. We have three different scripts, each representing a different sensor located at a specific location on the canal. When the scripts are executed, data is generated every 10 seconds for each location. The generated data will be sent to Azure IoT Hub and stored in Blob Storage.
+### IoT Sensor Simulation
+The IoT sensors generate data using Python scripts that incorporate randomization. To simulate IoT sensors for the Rideau Canal Skateway, we created three different scripts, each representing a different sensor located at a specific location on the canal. When the scripts are executed, data is generated every 10 seconds for each location. The generated data will be sent to Azure IoT Hub and stored in Blob Storage.
 
 The JSON payload example sent includes the randomization of sensor data as follows:
 
@@ -37,16 +37,63 @@ The JSON payload example sent includes the randomization of sensor data as follo
     "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 }
 ```
+The following Python script was used to simulate the telemetry data and send it to the Azure IoT Hub. The script generates random data for parameters such as ice thickness, surface temperature, snow accumulation, and external temperature every 10 seconds. The `CONNECTION_STRING` in the script was replaced for each specific location (e.g., Dow's Lake, Fifth Avenue, NAC) to ensure that each simulated IoT sensor sends data to its corresponding IoT Hub device.
+The three Python scripts for different locations are included in the `sensor-simulation` directory within this repository.
 
-The Python script for the sensors is located in the `sensor-simulation` directory within this repository.
+```python
+import time
+import random
+from azure.iot.device import IoTHubDeviceClient, Message
 
+# Replace this with the connection string for the specific sensor
+CONNECTION_STRING = "IoT Hub device connection string here"
+
+# Replace this with the location name for the specific sensor
+LOCATION = "location-name"
+
+# Simulate data for the location
+def simulate_data(location):
+    return {
+        "location": location,
+        "iceThickness": round(random.uniform(15.0, 35.0), 2),
+        "surfaceTemperature": round(random.uniform(-5.0, 5.0), 2),
+        "snowAccumulation": round(random.uniform(0, 10), 2),
+        "externalTemperature": round(random.uniform(-10.0, 5.0), 2),
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    }
+
+# Send data to Azure IoT Hub
+def send_data(client, location):
+    while True:
+        data = simulate_data(location)
+        message = Message(str(data))
+        client.send_message(message)
+        client
+        print(f"Sent data from {location}: {data}")
+        time.sleep(10)
+
+# Main function to connect to IoT Hub and send data
+def main():
+    client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
+    try:
+        print(f"Starting simulation for {LOCATION}")
+        send_data(client, LOCATION)
+    except KeyboardInterrupt:
+        print("Simulation stopped.")
+    finally:
+        client.disconnect()
+
+# Run the script
+if __name__ == "__main__":
+    main()
+```
 ### Azure IoT Hub Configuration
 To send data to Azure IoT Hub, we first created an IoT Hub named **iot-cst8916** with the pricing tier set to **Free**. After the IoT Hub was created, we added devices by navigating to the **IoT Hub blade** > **Device Management** > **Devices** > **Add Device**. We registered three sensors, each corresponding to a different location on the canal. Each sensor is assigned a unique primary connection string, which is used in the respective Python scripts to send data to the IoT Hub.
 
 For the endpoint configuration, we selected the default **Device-to-cloud endpoint**, which allows devices to send messages to the IoT Hub. The IoT Hub automatically listens for data sent to this endpoint from the registered devices.
 
 ### Azure Blob Storage
-Azure Blob Storage will be used to store the sensor data for monitoring purposes. To set up Blob Storage, we first created a storage account named **iotstorage8916**, dedicated to blob storage. Then, we added a container within this storage account and named it **iotoutput**. The data will be stored in the json format. 
+Azure Blob Storage will be used to store the sensor data for monitoring purposes. To set up Blob Storage, we first created a storage account named **iotstorage8916**, dedicated to blob storage. Then, we added a container within this storage account and named it **iotoutput**. The data will be stored in this container in json format. 
 
 ### Azure Stream Analytics Job
 Stream Analytics will be used to process and store the data in Blob Storage. We created a Stream Analytics job resource in Azure named **processiot**. To configure the job, including the input and output settings, we navigated to the **Job Topology** which is described in further steps.
@@ -145,6 +192,6 @@ We can see that it gives us data for every 5 minutes for each location and we ca
 {"Location":"NAC","AvgIceThickness":24.387931034482765,"MaxSnowAccumulation":9.94,"EventTime":"2024-11-26T20:15:00.0000000Z"}
 {"Location":"Fifth Avenue","AvgIceThickness":24.012068965517248,"MaxSnowAccumulation":9.65,"EventTime":"2024-11-26T20:15:00.0000000Z"}
 ```
-
-
+### Reflection
+Setting up the IoT Hub and configuring the message routing was pretty straightforward because we had already seen a demo of the process in class. However, one challenge we faced was ensuring the Stream Analytics query aggregated the data correctly over a 5-minute window. While the concept was clear, getting the syntax right and testing the output took some trial and error. With a bit of experimentation and referring to Azure documentation, we were able to resolve the issue and successfully process the data.
 
