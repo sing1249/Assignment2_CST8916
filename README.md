@@ -20,6 +20,7 @@ The collected data is processed in real time using Azure Stream Analytics and st
 By leveraging continuous monitoring and data-driven decision-making, this solution enhances the safety and reliability of the Rideau Canal Skateway for everyone.
 
 ## System Architecture
+![System Architecture Diagram](/system_architecture_diagram.png)
 
 ## Implementation Details
 
