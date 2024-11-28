@@ -33,7 +33,7 @@ By leveraging continuous monitoring and data-driven decision-making, this soluti
 
 The IoT sensors generate data using Python scripts that incorporate randomization. To simulate IoT sensors for the Rideau Canal Skateway, we created three different scripts, each representing a different sensor located at a specific location on the canal. When the scripts are executed, data is generated every 10 seconds for each location. The generated data will be sent to Azure IoT Hub and stored in Blob Storage.
 
-The JSON payload example sent includes the randomization of sensor data as follows:
+Below is the example of JSON payload sent. The values for each key is generated randomly through the Python scripts for each sensors.
 
 ```json
 {
