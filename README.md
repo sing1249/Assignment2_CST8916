@@ -197,3 +197,8 @@ We can see that it gives us data for every 5 minutes for each location and we ca
 ### Reflection
 Setting up the IoT Hub and configuring the message routing was pretty straightforward because we had already seen a demo of the process in class. However, one challenge we faced was ensuring the Stream Analytics query aggregated the data correctly over a 5-minute window. While the concept was clear, getting the syntax right and testing the output took some trial and error. With a bit of experimentation and referring to Azure documentation, we were able to resolve the issue and successfully process the data.
 
+### References
+AI - https://chatgpt.com/ - To generate python scripts for sensors.
+AI - https://chatgpt.com/ - To help modify the sql query. We needed help on how it can be changed so it aggregates data every 5 minutes.
+AI - https://chatgpt.com/ - To proofread our entire document for grammatical errors. 
+
