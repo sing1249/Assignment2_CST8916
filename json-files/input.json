@@ -1,0 +1,902 @@
+[
+  {
+    "location": "Dow's Lake",
+    "iceThickness": 26.77,
+    "surfaceTemperature": -3.31,
+    "snowAccumulation": 5.69,
+    "externalTemperature": -4.65,
+    "timestamp": "2024-11-26T19:03:38Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3263505Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2024-11-26T19:03:40.2360000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "DowsLake",
+      "ConnectionDeviceGenerationId": "638682382398040836",
+      "EnqueuedTime": "2024-11-26T19:03:40.1190000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 18.76,
+    "surfaceTemperature": 1.89,
+    "snowAccumulation": 0.44,
+    "externalTemperature": -1.23,
+    "timestamp": "2024-11-26T19:05:54Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3253555Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:05:56.2110000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:05:56.1130000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 27.38,
+    "surfaceTemperature": -3.04,
+    "snowAccumulation": 1.37,
+    "externalTemperature": -9.3,
+    "timestamp": "2024-11-26T19:06:01Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3281774Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:03.4450000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:06:03.3520000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 32.79,
+    "surfaceTemperature": -0.75,
+    "snowAccumulation": 5.74,
+    "externalTemperature": -2.76,
+    "timestamp": "2024-11-26T19:06:05Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3282317Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:06.3670000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:06:06.2940000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 19.99,
+    "surfaceTemperature": 2.98,
+    "snowAccumulation": 7.33,
+    "externalTemperature": -4.08,
+    "timestamp": "2024-11-26T19:06:12Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3282483Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:13.5860000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:06:13.5080000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 32.07,
+    "surfaceTemperature": -4.93,
+    "snowAccumulation": 2.85,
+    "externalTemperature": -3.33,
+    "timestamp": "2024-11-26T19:06:15Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3282623Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:16.5080000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:06:16.4300000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 20.66,
+    "surfaceTemperature": 3.52,
+    "snowAccumulation": 9.83,
+    "externalTemperature": -7.73,
+    "timestamp": "2024-11-26T19:06:22Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3282748Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:23.7270000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:06:23.6510000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 22.8,
+    "surfaceTemperature": 0.16,
+    "snowAccumulation": 2.01,
+    "externalTemperature": 4.95,
+    "timestamp": "2024-11-26T19:06:25Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3282896Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:26.6330000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:06:26.5590000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 21.52,
+    "surfaceTemperature": 0.55,
+    "snowAccumulation": 1.21,
+    "externalTemperature": -4.82,
+    "timestamp": "2024-11-26T19:06:32Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283026Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:33.8670000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:06:33.7980000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 22.72,
+    "surfaceTemperature": 3.48,
+    "snowAccumulation": 6.22,
+    "externalTemperature": -4.68,
+    "timestamp": "2024-11-26T19:06:35Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283169Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:36.7740000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:06:36.7070000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 29.97,
+    "surfaceTemperature": -2.2,
+    "snowAccumulation": 3,
+    "externalTemperature": -1.62,
+    "timestamp": "2024-11-26T19:06:42Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283299Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:44.0240000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:06:43.9270000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 18.76,
+    "surfaceTemperature": -0.21,
+    "snowAccumulation": 3.13,
+    "externalTemperature": -4.57,
+    "timestamp": "2024-11-26T19:06:45Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283429Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:46.9300000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:06:46.8480000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 31.94,
+    "surfaceTemperature": -2.89,
+    "snowAccumulation": 8.46,
+    "externalTemperature": 0.13,
+    "timestamp": "2024-11-26T19:06:52Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283568Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:54.1500000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:06:54.0680000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 21.01,
+    "surfaceTemperature": 4.44,
+    "snowAccumulation": 9.58,
+    "externalTemperature": 3.85,
+    "timestamp": "2024-11-26T19:06:55Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283693Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:06:57.0570000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:06:56.9830000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 34.65,
+    "surfaceTemperature": 4.35,
+    "snowAccumulation": 7.06,
+    "externalTemperature": -8.34,
+    "timestamp": "2024-11-26T19:07:03Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283815Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:04.2910000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:07:04.2070000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 33.94,
+    "surfaceTemperature": 3.61,
+    "snowAccumulation": 8.19,
+    "externalTemperature": -5.63,
+    "timestamp": "2024-11-26T19:07:05Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3283947Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:07.2130000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:07:07.1250000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 29.83,
+    "surfaceTemperature": 3.46,
+    "snowAccumulation": 0.34,
+    "externalTemperature": 3.23,
+    "timestamp": "2024-11-26T19:07:13Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284068Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:14.4160000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:07:14.3370000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 21.52,
+    "surfaceTemperature": 3.48,
+    "snowAccumulation": 3.37,
+    "externalTemperature": 3.09,
+    "timestamp": "2024-11-26T19:07:16Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284191Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:17.3380000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:07:17.2670000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 28.86,
+    "surfaceTemperature": 0.96,
+    "snowAccumulation": 0.25,
+    "externalTemperature": -9.44,
+    "timestamp": "2024-11-26T19:07:23Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284322Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:24.5570000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:07:24.4780000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 24.9,
+    "surfaceTemperature": -2.9,
+    "snowAccumulation": 4.27,
+    "externalTemperature": 0.98,
+    "timestamp": "2024-11-26T19:07:26Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284445Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:27.4790000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:07:27.3990000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 22.73,
+    "surfaceTemperature": -1.29,
+    "snowAccumulation": 5.97,
+    "externalTemperature": 4.69,
+    "timestamp": "2024-11-26T19:07:33Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284583Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:34.6820000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:07:34.6190000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 32.89,
+    "surfaceTemperature": -3.97,
+    "snowAccumulation": 0.21,
+    "externalTemperature": -1.19,
+    "timestamp": "2024-11-26T19:07:36Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284707Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:37.6040000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:07:37.5380000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 28.36,
+    "surfaceTemperature": 0.15,
+    "snowAccumulation": 9.13,
+    "externalTemperature": 3.61,
+    "timestamp": "2024-11-26T19:07:43Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284826Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:44.8230000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:07:44.7460000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 25.48,
+    "surfaceTemperature": 0.32,
+    "snowAccumulation": 7.77,
+    "externalTemperature": -5.1,
+    "timestamp": "2024-11-26T19:07:46Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3284947Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:47.7600000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:07:47.6670000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 27.56,
+    "surfaceTemperature": 2.87,
+    "snowAccumulation": 1.28,
+    "externalTemperature": -0.95,
+    "timestamp": "2024-11-26T19:07:53Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285081Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:54.9630000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:07:54.8800000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 32.19,
+    "surfaceTemperature": 3.14,
+    "snowAccumulation": 6.78,
+    "externalTemperature": -5.71,
+    "timestamp": "2024-11-26T19:07:56Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285207Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:07:57.9010000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:07:57.8200000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 19.72,
+    "surfaceTemperature": 0.38,
+    "snowAccumulation": 4.07,
+    "externalTemperature": -3.61,
+    "timestamp": "2024-11-26T19:08:03Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285326Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:05.1050000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:08:05.0250000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 16.27,
+    "surfaceTemperature": 0.78,
+    "snowAccumulation": 1.19,
+    "externalTemperature": 2.01,
+    "timestamp": "2024-11-26T19:08:06Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285464Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:08.0270000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:08:07.9550000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 28.76,
+    "surfaceTemperature": -4.41,
+    "snowAccumulation": 1.43,
+    "externalTemperature": -0.81,
+    "timestamp": "2024-11-26T19:08:13Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285593Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:15.2460000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:08:15.1580000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 24.88,
+    "surfaceTemperature": -2.1,
+    "snowAccumulation": 6,
+    "externalTemperature": -3.31,
+    "timestamp": "2024-11-26T19:08:16Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285727Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:18.1520000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:08:18.0880000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 23.84,
+    "surfaceTemperature": -1.34,
+    "snowAccumulation": 4.45,
+    "externalTemperature": -6.53,
+    "timestamp": "2024-11-26T19:08:24Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285855Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:25.3710000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:08:25.2970000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 28.13,
+    "surfaceTemperature": 2.72,
+    "snowAccumulation": 2.43,
+    "externalTemperature": -0.21,
+    "timestamp": "2024-11-26T19:08:27Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3285980Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:28.2930000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:08:28.2160000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 17.28,
+    "surfaceTemperature": 4.36,
+    "snowAccumulation": 9.51,
+    "externalTemperature": -3.2,
+    "timestamp": "2024-11-26T19:08:34Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3286120Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:35.5120000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:08:35.4370000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 27.4,
+    "surfaceTemperature": 2.86,
+    "snowAccumulation": 9.2,
+    "externalTemperature": -9.65,
+    "timestamp": "2024-11-26T19:08:37Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3286243Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:38.4340000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:08:38.3510000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 34.2,
+    "surfaceTemperature": 0.31,
+    "snowAccumulation": 6.25,
+    "externalTemperature": -0.9,
+    "timestamp": "2024-11-26T19:08:44Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3286375Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:45.6520000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:08:45.5700000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 19.88,
+    "surfaceTemperature": 0.14,
+    "snowAccumulation": 0.47,
+    "externalTemperature": 4.59,
+    "timestamp": "2024-11-26T19:08:47Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3286514Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:48.5740000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:08:48.5000000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 16.39,
+    "surfaceTemperature": -3.18,
+    "snowAccumulation": 1.83,
+    "externalTemperature": 0.9,
+    "timestamp": "2024-11-26T19:08:54Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3286639Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:55.7930000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:08:55.7190000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 32.26,
+    "surfaceTemperature": 0.75,
+    "snowAccumulation": 0.71,
+    "externalTemperature": 3,
+    "timestamp": "2024-11-26T19:08:57Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3286775Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:08:58.7310000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:08:58.6430000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 21,
+    "surfaceTemperature": -1.88,
+    "snowAccumulation": 5.79,
+    "externalTemperature": 0.87,
+    "timestamp": "2024-11-26T19:09:04Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3286902Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:05.9340000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:09:05.8520000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 19.76,
+    "surfaceTemperature": -0.56,
+    "snowAccumulation": 3.77,
+    "externalTemperature": -4.84,
+    "timestamp": "2024-11-26T19:09:07Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3287032Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:08.8710000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:09:08.7880000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 27.93,
+    "surfaceTemperature": -2.7,
+    "snowAccumulation": 9.61,
+    "externalTemperature": -1.17,
+    "timestamp": "2024-11-26T19:09:14Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3287163Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:16.0590000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:09:15.9850000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 21.08,
+    "surfaceTemperature": 3.63,
+    "snowAccumulation": 5.37,
+    "externalTemperature": 2.83,
+    "timestamp": "2024-11-26T19:09:17Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3287285Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:19.0120000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:09:18.9380000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 33.06,
+    "surfaceTemperature": -1.26,
+    "snowAccumulation": 2.7,
+    "externalTemperature": -4.52,
+    "timestamp": "2024-11-26T19:09:24Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3287411Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:26.2000000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:09:26.1120000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 25.87,
+    "surfaceTemperature": -1.52,
+    "snowAccumulation": 3.31,
+    "externalTemperature": -4.5,
+    "timestamp": "2024-11-26T19:09:27Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3287540Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:29.1530000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:09:29.0800000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 27.74,
+    "surfaceTemperature": -0.58,
+    "snowAccumulation": 8.48,
+    "externalTemperature": -0.19,
+    "timestamp": "2024-11-26T19:09:35Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3287669Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:36.3410000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:09:36.2680000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 30.73,
+    "surfaceTemperature": 4.95,
+    "snowAccumulation": 8.75,
+    "externalTemperature": 0.15,
+    "timestamp": "2024-11-26T19:09:38Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3287800Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:39.3090000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:09:39.2160000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 34.99,
+    "surfaceTemperature": 1.1,
+    "snowAccumulation": 6.76,
+    "externalTemperature": -3.96,
+    "timestamp": "2024-11-26T19:09:45Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3288676Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:46.4810000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:09:46.3980000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 31.18,
+    "surfaceTemperature": 1.14,
+    "snowAccumulation": 4.22,
+    "externalTemperature": 1.38,
+    "timestamp": "2024-11-26T19:09:48Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3288850Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:49.4340000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:09:49.3580000Z"
+    }
+  },
+  {
+    "location": "NAC",
+    "iceThickness": 30.3,
+    "surfaceTemperature": -0.16,
+    "snowAccumulation": 2.84,
+    "externalTemperature": 2.55,
+    "timestamp": "2024-11-26T19:09:55Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3289162Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:56.6060000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "NAC",
+      "ConnectionDeviceGenerationId": "638682383795865669",
+      "EnqueuedTime": "2024-11-26T19:09:56.5360000Z"
+    }
+  },
+  {
+    "location": "Fifth Avenue",
+    "iceThickness": 33.14,
+    "surfaceTemperature": -4.16,
+    "snowAccumulation": 1.28,
+    "externalTemperature": -2.26,
+    "timestamp": "2024-11-26T19:09:58Z",
+    "EventProcessedUtcTime": "2024-11-26T19:31:26.3289324Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2024-11-26T19:09:59.5750000Z",
+    "IoTHub": {
+      "MessageId": null,
+      "CorrelationId": null,
+      "ConnectionDeviceId": "FifthAvenue",
+      "ConnectionDeviceGenerationId": "638682383006413022",
+      "EnqueuedTime": "2024-11-26T19:09:59.4970000Z"
+    }
+  }
+]
