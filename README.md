@@ -3,7 +3,7 @@
 ## Group Members
 
 1. Aakanksha Pharande (041075173)
-2. Vrinda Dua
+2. Vrinda Dua (041159415)
 3. Talwinder Singh (040952048)
 
 ## Scenario Description:
